@@ -1,4 +1,4 @@
-:- module(_, [main/1], [assertions]).
+:- module(_, [main/1], [assertions, datafacts]).
 
 :- doc(title, "Determine actions to synchronzie two directories").
 
@@ -10,7 +10,6 @@
 @end{verbatim}
 ").
 
-:- use_module(engine(data_facts)).
 :- use_module(engine(io_basic)).
 :- use_module(library(format), [format/2]).
 :- use_module(library(lists), [append/3, reverse/2]).
