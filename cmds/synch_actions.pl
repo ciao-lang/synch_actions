@@ -5,9 +5,7 @@
 :- doc(module,"
 @section{Usage}
 
-@begin{verbatim}
 @includefact{msg/1}
-@end{verbatim}
 ").
 
 :- use_module(engine(io_basic)).
